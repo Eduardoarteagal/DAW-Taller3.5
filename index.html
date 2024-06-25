@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="encabezado">
+            <div class="logo">
+                <img src="/imagenes/consultoriologo.jpg" alt="logo de la compañía" class="logo-img">
+                <h2 class="logo-nombre">Consultorio medico</h2>
+            </div>
+            <h1>Consultorio Metrored</h1>
+            <div class="redes-sociales">
+                <div><img src="/imagenes/facebook.svg" alt="Facebook"></div>
+                <div><img src="/imagenes/intagram.svg" alt="Instagram"></div>
+                <div><img src="/imagenes/whatsapp.svg" alt="WhatsApp"></div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#medicinaGeneral">Medicina General</a></li>
+                <li><a href="#pediatria">Pediatria</a></li>
+                <li><a href="#acerca-de">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="contenedor-carrusel">
+        <div class="carrusel">
+            <div class="slide" style="background-image: url('/imagenes/Consultorio-Medico1.jpg')"></div>
+            <div class="slide" style="background-image: url('/imagenes/consultorio-medico2.jpg')"></div>
+            <div class="slide" style="background-image: url('/imagenes/consultorio-medico3.jpg')"></div>
+            <div class="slide" style="background-image: url('/imagenes/consultorio-medico4.jpg')"></div>
+            <div class="slide" style="background-image: url('/imagenes/consultorio-medico5.jpg')"></div>
+        </div>
+        <div class="indicadores">
+            <button class="indicador" data-slide="0"></button>
+            <button class="indicador" data-slide="1"></button>
+            <button class="indicador" data-slide="2"></button>
+            <button class="indicador" data-slide="3"></button>
+            <button class="indicador" data-slide="4"></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+    <main>
+        <section id="inicio">
+            <p>Cuado lo que tienes no puede esperar</p>
+        </section>
+
+        <section id="medicinaGeneral">
+            <h2>Medicina General</h2>
+            <p>Costos</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Consulta</th>
+                        <th>Procedimientos</th>
+                        <th>Exámenes de laboratorio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Emergencias</td>
+                        <td>50$</td>
+                        <td>consultar con su medico</td>
+                    </tr>
+                    <tr>
+                        <td>Cita médica</td>
+                        <td>$30</td>
+                        <td>consultar con su medico</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="pediatria">
+            <h2>Pediatria</h2>
+            <p>Es la especialidad médica y es la rama de la medicina que involucra la atención médica de bebés, niños y adolescentes</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Valoración</td>
+                        <td>La valoración pediátrica es una herramienta más, de todas de las que disponen los pediatras, para proveer una atención integral y de calidad a nuestros pacientes, que debe ser el objetivo primordial de nuestra práctica médica</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="acerca-de">
+            <h2>Acerca de</h2>
+            <p>Nuestra misión y visión.</p>
+            <ul>
+                <li>Queremos que vivas más, vivas mejor y que cuidarte sea tan fácil.</li>
+                <li>Seremos el mejor sistema integral de salud con vocación de servicio y compromiso con el usuario.</li>
+            </ul>
+        </section>
+    </main>
+
+    <article>
+        <h2>Imágenes de nuestras instalaciones</h2>
+        <section>
+            <div class="grid">
+                <div class="grid-item"><img src="/imagenes/carrusel1.jpg" alt="Galería 1"></div>
+                <div class="grid-item"><img src="/imagenes/carrusel2.jpg" alt="Galería 2"></div>
+                <div class="grid-item"><img src="/imagenes/carrusel3.jpg" alt="Galería 3"></div>
+                <div class="grid-item"><img src="/imagenes/carrusel4.jpg" alt="Galería 4"></div>
+                <div class="grid-item"><img src="/imagenes/carrusel5.jpg" alt="Galería 5"></div>
+                <div class="grid-item"><img src="/imagenes/carrusel6.jpg" alt="Galería 6"></div>
+            </div>
+        </section>
+    </article>
+
+    <footer class="text-center footer-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <h3>Página Consultorio Medico</h3>
+                    <p>Av. Juan Tanca Marengo y Av. Agustin Freire Ycaza Esq</p>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h3>Copyright © 2022 El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Veris. Las fotos son a modo ilustrativo. Los precios online para los productos presentados/publicados en www.veris.com.ec son válidos exclusivamente para la compra vía internet en la página antes mencionada.</h3>
+                    <p>Cuenta con la seguridad para que puedas realizar tus compras online con la mayor confianza.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
